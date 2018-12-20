@@ -1,0 +1,51 @@
+
+page{
+  background: #ededed;
+}
+
+.kind-list-item {
+  background-color: #FFFFFF;
+}
+
+.kind-list-item-hd {
+  display: flex;
+  align-items: center;
+  transition: opacity .3s;
+  position: relative;
+  height: 158rpx;
+  margin: 0 30rpx 0 30rpx;
+}
+
+.kind-list-icon {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.kind-list-text{
+  flex: 1;
+  margin-left: 20rpx;
+  font-size: 38rpx;
+}
+
+.kind-list-img{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.kind-list-sepline{
+  position: absolute;
+  left: 35rpx;
+  right: -30rpx;
+  border-bottom: 1rpx solid #ededed;
+  bottom: 0rpx;
+}
+
+.navigation{
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 148rpx;
+}
+

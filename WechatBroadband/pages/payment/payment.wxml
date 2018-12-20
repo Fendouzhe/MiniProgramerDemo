@@ -1,0 +1,40 @@
+<view>
+  <view class='payment-header-bg'>
+    <!-- <view class='payment-total-bg'> -->
+      <view class='payment-total'>¥8888.88</view>
+    <!-- </view> -->
+    <view class='payment-sepline'> </view>
+
+    <view class='list-headerfooter'> </view>
+    <view class='list-item-bg'> 
+      <view class='list-item-leftText'>缴费详情： </view>
+      <view class='list-item-rightText'>中国电信100M宽带续约 </view>
+    </view>
+    <view class='list-item-bg'> 
+      <view class='list-item-leftText'>生效时间： </view>
+      <view class='list-item-rightText'>2018年8月8日 </view>
+    </view>
+    <view class='list-item-bg'> 
+      <view class='list-item-leftText'>到期时间： </view>
+      <view class='list-item-rightText'>2018年8月8日 </view>
+    </view>
+    <view class='list-headerfooter'> </view>
+  </view>
+
+  <view class='payment-tip'>请填写（以下信息提供运营商用于业务办理用途）</view>
+  <view class='payment-footer-bg'>
+    <view class='input-item-bg'> 
+        <view class='list-item-leftText'>联系人 </view>
+        <input placeholder-style='color:lightGray' placeholder='请输入联系人姓名' class='payment-input' bindinput='inputName'></input>
+    </view>
+    <view class='input-item-sepline'> </view>
+    <view class='input-item-bg'> 
+        <view class='list-item-leftText'>联系电话 </view>
+        <input type='number' placeholder-style='color:lightGray' placeholder='请输入联系人电话' class='payment-input' bindinput='inputPhone'></input>
+    </view>
+  </view>
+  <view class='buttonContainer'>
+    <button class='payButton' type="primary" bindtap="pay"> 立即缴费 </button>
+  </view>
+
+</view>

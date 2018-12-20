@@ -1,0 +1,23 @@
+<view class='container-main'  wx:for="{{dataArr}}" wx:key="{{item.id}}">
+  <view class="list-item-content">
+    <navigator url='../orderDetail/orderDetail' class='navigation'>
+      <!-- top -->
+      <view class="list-item-top">
+        <image class="list-item-top-image" src="../../image/xuyue.png"></image>
+        <view class="list-item-top-title">续约</view>   
+        <view class="list-item-top-time">2018-08-08 18:58</view>    
+      </view>
+      <!-- center -->
+      <view class="list-item-content-title1">宽带账号：8888888888888888</view>
+      <view class="list-item-content-title1">套餐名称：中国电信100M宽带续约</view>
+      <view class="list-item-content-title2">缴费金额：¥1888</view>
+      <view class="list-item-content-sepline"> </view>
+      <!-- bottom -->
+      <view class="list-item-bottom"> 
+        <view class="list-item-bottom-title1">缴费状态：缴费成功</view>
+        <view class="list-item-bottom-sepline"> </view>
+        <view class="list-item-bottom-title2" catchtap='repay'>重新支付</view>
+      </view>
+    </navigator>
+  </view>
+</view>

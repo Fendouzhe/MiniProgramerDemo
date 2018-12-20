@@ -1,0 +1,12 @@
+<view>
+    <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      <view class="kind-list-item">
+          <navigator url='{{item.url}}' class="navigation">
+          <image class="kind-list-icon" src="{{item.icon}}"></image>
+          <view class="kind-list-text">{{item.name}}</view>
+          <image class="kind-list-img" src="../../image/jiantou.png"></image>
+          <view class="kind-list-sepline" wx:if="{{index < list.length-1}}"></view>
+          </navigator>
+      </view>
+    </block>
+</view>

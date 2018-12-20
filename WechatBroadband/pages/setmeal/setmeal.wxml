@@ -1,0 +1,59 @@
+<view>
+  <view class='meal-top-bg'>
+    <view class='meal-headerFooter'></view>
+      <view class='list-item-bg'>
+      <view class='list-item-leftText'>宽带号码：</view>
+      <view class='list-item-rightText'>282931282931283931</view>
+      </view>
+      <view class='list-item-bg'>
+      <view class='list-item-leftText'>到期时间：</view>
+      <view class='list-item-rightText'>2018年8月8日</view>
+      </view>
+      <view class='list-item-bg'>
+      <view class='list-item-leftText'>装机地址：</view>
+      <view class='list-item-rightText'>广州天河区林和西路林和街道157</view>
+      </view>
+    <view class='meal-headerFooter'></view>
+  </view>
+  
+  <radio-group bindchange="radioChange">
+
+    <view class='meal-tip'>当前套餐</view>
+    <view class='meal-item-bg'>
+      <view class='item-content-bg'>
+        <view class='item-content-text'>电信宽带，100M畅想套餐，送iTV（每年）</view>
+        <view class='item-content-price'>¥8888.88</view>
+      </view>
+      <radio class='select-radio'></radio>
+    </view>
+
+    <view class='meal-tip'>可选套餐</view>
+    <view style='background: #ffffff'>
+      <view class='meal-item-bg'>
+        <view class='item-content-bg'>
+          <view class='item-content-text'>电信宽带，100M畅想套餐，送iTV（每年）</view>
+          <view class='item-content-price'>¥8888.88</view>
+        </view>
+        <radio class='select-radio'></radio>
+      </view>
+
+      <view class='meal-sepline'> </view>
+
+      <view class='meal-item-bg'>
+        <view class='item-content-bg'>
+          <view class='item-content-text'>电信宽带，100M畅想套餐，送iTV（每年）</view>
+          <view class='item-content-price'>¥8888.88</view>
+        </view>
+        <radio class='select-radio'></radio>
+      </view>
+    </view>
+  
+  </radio-group>
+  
+
+
+  <view class='buttonContainer'>
+    <button class='payButton' type="primary" bindtap="nextStep"> 下一步 </button>
+  </view>
+
+</view>

@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/searchResult/searchResult",
+    "pages/setmeal/setmeal",
+    "pages/payment/payment",
+    "pages/orderDetail/orderDetail",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/renew/renew",
+    "pages/order/order"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "宽带续约",
+    "navigationBarTextStyle":"light"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+
+}

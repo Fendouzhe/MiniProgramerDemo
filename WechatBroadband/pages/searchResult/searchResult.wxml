@@ -1,0 +1,11 @@
+<view>
+  <view class='result-tip'>选择宽带号码</view>
+
+  <view class='list-bg'>
+    <view wx:for='{{lists}}' bindtap='selectEvent'>
+      <view class='list-num'>{{item.num}}</view>
+      <view class='list-address'>{{item.address}}</view>
+      <view class='list-sepline' wx:if="{{index<lists.length-1}}"> </view>
+    </view>
+  </view>
+</view>

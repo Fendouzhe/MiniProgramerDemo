@@ -1,0 +1,72 @@
+.meal-top-bg{
+  background: #ffffff;
+  width: 100%;
+  border-top: 15px solid #ededed; 
+}
+.meal-headerFooter{
+  background: #ffffff;
+  width: 100%;
+  height: 10px;
+}
+.list-item-bg{
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.list-item-leftText{
+  font-size: 16px;
+}
+.list-item-rightText{
+  word-break: break-all;
+  font-size: 16px;
+  max-width: 65%;
+}
+.meal-tip{
+  font-size: 14px;
+  color: gray;
+  padding: 12px 10px 8px 10px;
+  width: 100%;
+}
+.meal-item-bg{
+  /* height: 80px; */
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+.item-content-bg{
+  width: 85%;
+  /* background: cyan; */
+}
+
+.select-radio{
+  width: 15%;
+  display: flex;
+  /* 水平居中 */
+  justify-content: center;
+  /* 垂直居中 */
+  align-items: center;
+}
+
+.item-content-text{
+  word-break: break-all;
+  /* word-wrap: break-word; */
+  font-size: 16px;
+  padding: 10px 10px 2.5px 10px;
+}
+.item-content-price{
+  font-size: 15px;
+  color: red;
+  padding: 2.5px 10px 10px 10px;
+}
+
+.meal-sepline{
+  margin-left: 10px;
+  height: 1px;
+  background: #ededed;
+}
+
+.buttonContainer{
+  padding: 20px 20px 20px 20px;
+}

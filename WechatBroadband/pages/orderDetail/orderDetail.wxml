@@ -1,0 +1,73 @@
+<view class="container-main">
+
+  <view class='tip-content'>
+    <image src='../../image/jiaofeichenggong.png'></image>
+    <view class='tip-content-text'>订单缴费成功</view>
+  </view>
+
+  <view class='content-total'>
+    <view class='content-total-bg'>
+      <view  class='content-list-leftItem'>缴费金额：</view>
+      <view  class='content-list-rightItem'>¥8888.88</view>
+    </view>
+  </view>
+  
+  <view class='sectionHeadFooter'></view>
+
+  <!-- <view wx:for="{{datas}}" wx:key="{{item.id}}" class='content-list'>
+      <view>订单详情：</view>
+      <view>订单描述</view>
+  </view> -->
+  <view class='content-list'>
+      <view class='content-list-leftItem'>姓名：</view>
+      <view class='content-list-rightItem'>李云龙</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>套餐名称：</view>
+      <view class='content-list-rightItem'>200M</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>生效时间：</view>
+      <view class='content-list-rightItem'>订单描述</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>到期时间：</view>
+      <view class='content-list-rightItem'>订单描述</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>订单时间：</view>
+      <view class='content-list-rightItem'>订单描述</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>缴费单位：</view>
+      <view class='content-list-rightItem'>广州移动通信有限公司</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>订单编号：</view>
+      <view class='content-list-rightItem'>订单描述</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>宽带号码：</view>
+      <view class='content-list-rightItem'>订单描述</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>第三方订单号：</view>
+      <view class='content-list-rightItem'>订单描述</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>缴费状态：</view>
+      <view class='content-list-payStatus'>缴费成功</view>
+  </view>
+  <view class='content-list'>
+      <view class='content-list-leftItem'>客服电话：</view>
+      <view class='content-list-rightItem'>订单描述</view>
+  </view>
+
+  <view class='sectionHeadFooter'></view>
+
+  <!-- <button class='repayButton'>重新支付</button> -->
+  <view class='buttonContainer'>
+    <button class='repayButton' type="primary" bindtap="repay"> 重新支付 </button>
+  </view>
+  
+</view>
